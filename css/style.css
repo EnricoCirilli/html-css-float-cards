@@ -8,6 +8,7 @@
 /* Setting up fredoka font family */
 body{
     font-family: 'Fredoka', sans-serif;
+    width: 100%;
 }
 /* Setting up title */
 h1{
@@ -21,11 +22,23 @@ p{
     text-align: center;
     padding: 30px;
 }
-.first-row{
-    background-color: yellow;
-    height: 100px;
+.column {
+    float: left;
+    width: calc(100% / 3);
+    padding: 0 20px;
+    text-align: center;
+  }
+img{
+    float: left;
+    max-width: 100%;
 }
-.second-row{
-    background-color:yellowgreen;
-    height: 100px;
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+   }
+.card{
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
