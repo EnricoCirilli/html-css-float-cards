@@ -1,17 +1,22 @@
+
+/* Setting up universal rules */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Setting up fredoka font family */
 body{
     font-family: 'Fredoka', sans-serif;
 }
+/* Setting up title */
 h1{
     text-align: center;
     color: rgb(202, 63, 140);
     padding: 30px;
 }
+/* Setting up p */
 p{
     font-size: smaller;
+    text-align: center;
 }
