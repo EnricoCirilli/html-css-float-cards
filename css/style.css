@@ -23,29 +23,37 @@ p{
     text-align: center;
     padding: 30px;
 }
-
+/* column add float and calc width */
 .column {
     float: left;
     width: calc(100% / 3)
    
   }
+  /*  */
 .column img{
     float: left;
-    max-height: 100px;
+    max-height: 70px;
 }
+/*  */
 .clearfix:after {
     content:"";
     display:table;
     clear:both;
    }
+/*  */
 .card{
     background-color: black;
     color: white;
-    height: 100px;
-    width:90%;
+    height: 70px;
+    width:90%
    
 }
+/*  */
 a{
     color: lightskyblue;
+    text-decoration: none;
+    font-size: 15px;
 }
-
+.row-2{
+    padding-top: 30px;
+}
