@@ -13,10 +13,19 @@ body{
 h1{
     text-align: center;
     color: rgb(202, 63, 140);
-    padding: 30px;
+    padding: 20px;
 }
 /* Setting up p */
 p{
     font-size: smaller;
     text-align: center;
+    padding: 30px;
+}
+.first-row{
+    background-color: yellow;
+    height: 100px;
+}
+.second-row{
+    background-color:yellowgreen;
+    height: 100px;
 }
