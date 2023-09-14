@@ -30,7 +30,7 @@ p{
   }
 img{
     float: left;
-    max-width: 100%;
+    max-height: 120px;
 }
 .clearfix:after {
     content:"";
@@ -41,4 +41,5 @@ img{
     background-color: black;
     color: white;
     padding: 10px;
+    max-height: 150px;
 }
